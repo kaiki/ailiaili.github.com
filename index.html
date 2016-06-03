@@ -20,11 +20,25 @@ filter: blur(10px);
 filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
 z-index:1;
 }
-.magnet ,a{
+.magnet{
 z-index: 999;
 color: #fff;
 width: 500px;
-height: 50px;
+height: 70px;
+overflow: auto;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+a{
+z-index: 999;
+color: #fff;
+width: 500px;
+height: 25px;
 overflow: auto;
 margin: auto;
 position: absolute;
@@ -37,6 +51,7 @@ text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
 </style>
 <body>
 <div class="bg"></div>
-<div class="magnet">magnet:?xt=urn:btih:5EC68F008EE21039410D3C16D1666055A671A229<br /><a href="5000.html">请继续发车</a></div>
+<div class="magnet">magnet:?xt=urn:btih:5EC68F008EE21039410D3C16D1666055A671A229</div>
+<a href="5000.html">点击继续发车</a>
 </body>
 </html>
